@@ -8,8 +8,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### Execution Process
 The R Script "run_analysis.R" 
- downloads the data from the above site to local "./data/" folder and unzip it before the processing.
- Please refer the README file for the details.
+  * Downloads the data from the above site to local "./data/" folder and unzip it before the processing. if the "./data" folder does not exists, it creates the folder before loading.
+  * Reads the data from the files into local variables for test data and train data
+  * Merges the test data and train data to create one dataset
+  * Performs the below transformations to create a final data set
+  * The variable names and labels are changed as detailed below under "tranformations"
+  * The tidy data set is created with required tranformation as detailed under "tranformations"
+  
+ 
+ Please refer the README file for the execution process.
 
 ### Variables
   Following dataframe variables are created to read the data from the files:
