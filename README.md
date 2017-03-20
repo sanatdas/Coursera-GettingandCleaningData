@@ -28,7 +28,7 @@ This R script does the following steps:
 * Appropriately labels the data set with descriptive activity names.
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##Usage:
+## Usage:
 
 Run the script run_analysis.R. The script produces a single output file, tidy_data.txt in the current directory, that contains the merged and transformed data.
 
